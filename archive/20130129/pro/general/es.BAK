@@ -1,0 +1,6 @@
+function es, T
+; Returns the saturation vapour pressure at a specified temperature
+;  es in hPa
+;  T in C
+ return,6.106*exp(17.27*T/(T+237.3))
+end
