@@ -1,5 +1,0 @@
-FUNCTION SigmaZ, Zb, s
-
- RETURN, Zb*SQRT(GAMMA(1./s))*SQRT(GAMMA(3./s))/GAMMA(2./s)
-
-END
